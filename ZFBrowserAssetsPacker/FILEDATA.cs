@@ -1,4 +1,4 @@
-﻿namespace WTTGBrowserAssetsPacker
+﻿namespace ZFBrowserAssetsPacker
 {
     internal struct FILEDATA
     {

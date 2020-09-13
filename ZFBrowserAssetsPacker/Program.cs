@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-namespace WTTGBrowserAssetsPacker
+namespace ZFBrowserAssetsPacker
 {
     class Program
     {
