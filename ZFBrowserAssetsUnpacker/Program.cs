@@ -42,13 +42,21 @@ namespace ZFBrowserAssetsUnpacker
                 // Data output to files
                 if (Directory.Exists(SITES_FOLDER))
                 {
-                    Directory.Delete(SITES_FOLDER);
+                    Directory.Delete(SITES_FOLDER, true);
                     Directory.CreateDirectory(SITES_FOLDER);
                 }
                 
                 for (int j = 0; j < fileCount; j++)
                 {
-                    Directory.CreateDirectory(SITES_FOLDER + fileArray[j].name);
+                    string[] filePathArray = fileArray[j].name.Split('/');
+                    
+                    string fileDirectory = SITES_FOLDER;
+                    for (int k = 0; k < filePathArray.Length - 1; k++)
+                    {
+                        fileDirectory += "/" + filePathArray[k];
+                    }
+                    
+                    Directory.CreateDirectory(fileDirectory);
                     Console.WriteLine("Writing file [{0}]", fileArray[j].name);
 
                     FileStream file = File.Create(SITES_FOLDER + fileArray[j].name);
