@@ -27,4 +27,4 @@ You can now edit the contents inside the folder, make sure to keep the same fold
 
 Double click on the packer tool and it will start to pack the `sites` folder in `browser_assets` **replacing the previous content**. (Make a backup!!)
 
-The packer will **only** pack everything in the `sites` folder.
+The packer will **only** pack what is found in the `sites` folder.
