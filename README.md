@@ -10,7 +10,7 @@ This tool can be very useful if you want to mod the ingame HTML pages.
 
 ## How to download
 
-Go to the releases page and download both the unpacker and packer executables.
+Go to the [releases](https://github.com/Lutonite/ZFBrowserAssetsTools/releases/latest) page and download both the unpacker and packer executables.
 
 ## How to unpack
 
