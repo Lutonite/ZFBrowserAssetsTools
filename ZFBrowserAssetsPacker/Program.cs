@@ -48,7 +48,7 @@ namespace ZFBrowserAssetsPacker
                     binaryWriter.Write(fileArray[i].length);
                 }
             
-                for (var j = 0; j < fileArray.Length; j++)
+                for (int j = 0; j < fileArray.Length; j++)
                 {
                     fileArray[j].offset = binaryWriter.BaseStream.Position;
                     binaryWriter.Write(fileArray[j].data);
