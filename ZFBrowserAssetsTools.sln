@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZFBrowserAssetsPacker", "ZFBrowserAssetsPacker\ZFBrowserAssetsPacker.csproj", "{A09DD3D1-DC3D-4E50-BC23-109933D1A1BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZFBrowserAssetsUnpacker", "ZFBrowserAssetsUnpacker\ZFBrowserAssetsUnpacker.csproj", "{D8D1E193-3A46-4D9A-A804-B8F8CC7A243E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A09DD3D1-DC3D-4E50-BC23-109933D1A1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09DD3D1-DC3D-4E50-BC23-109933D1A1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09DD3D1-DC3D-4E50-BC23-109933D1A1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09DD3D1-DC3D-4E50-BC23-109933D1A1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D1E193-3A46-4D9A-A804-B8F8CC7A243E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D1E193-3A46-4D9A-A804-B8F8CC7A243E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D1E193-3A46-4D9A-A804-B8F8CC7A243E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D1E193-3A46-4D9A-A804-B8F8CC7A243E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
