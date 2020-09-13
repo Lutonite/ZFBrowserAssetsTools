@@ -1,10 +1,6 @@
 # ZenFulcrum Browser BrowserAssets Tools
 
-----
-
-by Lutonite
-
-----
+> by Lutonite
 
 This tool was originally made for Welcome to the Game 2, but it should be working for any game which has the ZenFulcrum Embedded Browser and a browser_assets file.
 
